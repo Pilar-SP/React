@@ -1,12 +1,11 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import style from "./style.css"
-import Navbar from "./components/Navbar"
+import App from "./App"
 
 
 ReactDOM.render(
-
-  <Navbar/>,
+  <App />,
   document.getElementById("root")
 
 )
