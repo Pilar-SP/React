@@ -71,6 +71,14 @@ nav {
 .cards-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 40px;
+  padding: 30px;
+  /* grid-gap: 12px; */
 
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
 }
