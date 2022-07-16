@@ -1,3 +1,17 @@
 * {
   box-sizing: border-box;
 }
+
+nav {
+  background-color: whitesmoke;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar--icon {
+  height: 50px;
+  /* width:50px; */
+}
