@@ -8,12 +8,12 @@ export default function Card(props) {
       <div className="card--info">
         <div className="card--location">
           <img className="pinpoint" src={pinpointer} alt="a pointer"/>
-          <h5>{props.location}</h5>
-          <a href='{props.googleMapsUrl}'>View on Google maps</a>
+          <h5 className="location">{props.location}</h5>
+          <a className="map" href='{props.googleMapsUrl}'>View on Google maps</a>
         </div>
-        <h3>{props.title}</h3>
-        <strong>{props.startDate}-{props.endDate}</strong>
-        <p>{props.description}</p>
+        <h1 className="title">{props.title}</h1>
+        <strong className="dates">{props.startDate} - {props.endDate}</strong>
+        <p className="description">{props.description}</p>
       </div>
     </div>
 

@@ -36,6 +36,24 @@ const Data =  [
       endDate: "15 Jan, 2018",
       description: "Salzburg is a city in Austria on the border with Germany, with views of the Eastern Alps.",
       imageUrl: "https://images.unsplash.com/photo-1603892710963-331039c8dc66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+      title: "Munich",
+      location: "Germany",
+      googleMapsUrl: "https://www.google.com/maps/place/M%C3%BAnich,+Alemania/@48.1549107,11.5418357,11z/data=!3m1!4b1!4m5!3m4!1s0x479e75f9a38c5fd9:0x10cb84a7db1987d!8m2!3d48.1351253!4d11.5819805",
+      startDate: "20 Jul, 2017",
+      endDate: "25 Jul, 2017",
+      description: "Munich is the capital and most populous city of the German state of Bavaria. Munich is the seat of the Bavarian region of Upper Bavaria, while being the most densely populated municipality in Germany.",
+      imageUrl: "https://images.unsplash.com/photo-1586015078740-e97e06779bed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+      title: "Stockholm",
+      location: "Sweden",
+      googleMapsUrl: "https://www.google.com/maps/place/Estocolmo,+Suecia/@59.3258414,17.70188,10z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808",
+      startDate: "10 Apr, 2014",
+      endDate: "30Apr, 2014",
+      description: "Stockholm is famed for its iconic city hall, the world's first open-air museum and the fabulous Abba museum.",
+      imageUrl: "https://images.unsplash.com/photo-1601719209477-4f026c7c5cd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80"
   }
 
 ]

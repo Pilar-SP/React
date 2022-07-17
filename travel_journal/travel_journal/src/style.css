@@ -2,13 +2,27 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #caf0f8;
+}
+
 nav {
-  background-color: whitesmoke;
+  /* background-color: #ade8f4; */
+  /* background: linear-gradient(90deg, rgba(138,143,234,1) 0%, rgba(150,186,255,1) 50%, rgba(125,237,255,1) 100%); */
+  background: linear-gradient(0deg, rgba(45,200,253,1) 0%, rgba(134,191,242,1) 100%);
   display: flex;
   height: 100px;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--title {
+  font-family: 'Amatic SC', cursive, sans-serif;
+  font-size: 40px;
+  padding-left: 10px;
+  color: white;
+  text-shadow: 2px 2px 8px #36333393;
 }
 
 .navbar--icon {
@@ -18,23 +32,26 @@ nav {
 .cardContainer {
   display: flex;
   /* width: 470px; */
-  height: 170px;
+  /* height: 170px; */
   background-color: white;
   margin: 15px;
   align-items: center;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  background-color: #f8f9fa;
 }
 
 .card--image {
-  width: 126px;
-  /* width: 100%; */
-  height: 170px;
-  /* object-fit: cover; */
+  /* width: 126px; */
+  width: 180px;
+  /* height: 170px; */
+  height: 270px;
+  object-fit: cover;
   border-radius: 5px;
 }
 
 .card--info {
-  padding: 10px;
+  padding: 14px;
   /* width: 326px; */
   /* width: 100px; */
   /* height: 144px; */
@@ -42,17 +59,47 @@ nav {
   /* margin-top: -100px; */
   margin: 0;
 
+
+}
+
+.title {
+  font-family: 'Amatic SC', cursive;
+  /* font-size: 20px; */
+}
+
+.location {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: regular 400px;
+  padding-right: 12px;
+}
+
+.map {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 12px !important;
+}
+
+.dates {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  /* font-size: 15px; */
+
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .pinpoint {
-  width: 20px;
+  width: 25px;
 }
 
 .card--location {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 200px;
+  /* width: 200px; */
   height: 20px;
   margin-top: 10px;
   /* margin-top:50px; */
