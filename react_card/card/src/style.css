@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.page-container {
+  /*background-color: #23252C;*/
+  margin: auto;
+  width: 25%;
+  /*border: 3px solid green;
+  padding: 10px;*/
+
+}
+
+/* Info section */
+
+.photo {
+  margin: 10px;
+  width: 45%;
+  /* height: 50%; */
+
+  border-radius: 10px;
+}
+
+.Info {
+  text-align: center;
+  background-color: #3c0442;
+  border-radius: 10px 10px 0 0 ;
+}
+
+.Info--name {
+  font-weight: bolder;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.Info--title {
+  font-weight: 300;
+  color: coral;
+  margin-top: -20px;
+}
+
+.email {
+  color: whitesmoke;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.button-email {
+  text-decoration: none;
+  background-color: whitesmoke;
+  width: 115px;
+  padding: 9px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 6px grey;
+  margin-right: 6px;
+  color: grey;
+}
+
+.button-linkedin {
+  text-decoration: none;
+  background-color: whitesmoke;
+  width: 115px;
+  padding: 9px 10px;
+  border-radius: 6px;
+  box-shadow: 1px 2px 6px grey;
+  margin-left: 6px;
+  color: grey;
+}
+
+/* About section */
+
+.about {
+  font-size: 12px;
+  color: #DCDCDC;
+  padding:15px 50px;
+  line-height: 15.6px;
+  background-color: #3c0442;
+}
+
+.interests {
+  margin-top: -20px;
+  font-size: 12px;
+  color: #DCDCDC;
+  padding:10px 50px;
+  line-height: 15.6px;
+  background-color: #3c0442;
+  padding-bottom: 30px;
+
+}
+
+/* footer */
+
+.footer {
+  background-color: black;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px ;
+}
+
+.footer > img {
+  width: 25px;
+  height: 25px;
+}
